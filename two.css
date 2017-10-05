@@ -1,0 +1,19 @@
+body {
+	background: grey;
+}
+
+
+#hover-box {
+	position: absolute;
+	left: 26%;
+	width: 900px;
+	height: 900px;
+	text-align: center;
+	line-height: 600px;
+	/*padding-top: 450px;*/
+	font-size: 3em;
+	background: black;
+	border: 20px dashed yellow;
+	color: orange;
+	border-radius: 100%;
+}
