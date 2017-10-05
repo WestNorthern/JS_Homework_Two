@@ -1,0 +1,39 @@
+#box {
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	/*line-height: 400px;*/
+	background: black;
+	color: salmon;
+	font-size: 1.4em;
+	border: 5px solid salmon;
+	position: absolute;
+	top: 0;
+	left: 40%;
+}
+
+#button-left {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background: white;
+	color: black;
+	border: 5px solid black;
+	text-align: center;
+	position: absolute;
+	left: 20%;
+	top: 15%;
+}
+
+#button-right {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background: white;
+	color: black;
+	border: 5px solid black;
+	text-align: center;
+	position: absolute;
+	right: 20%;
+	top: 15%;
+}
