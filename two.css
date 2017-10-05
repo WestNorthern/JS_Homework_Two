@@ -4,15 +4,16 @@ body {
 
 
 #hover-box {
-	margin-top: 300px;
-	margin: 0 auto;
-	width: 600px;
-	height: 600px;
+	position: absolute;
+	left: 26%;
+	width: 900px;
+	height: 900px;
 	text-align: center;
-	/*line-height: 600px;*/
-	padding-top: 200px;
-	font-size: 4em;
+	line-height: 600px;
+	/*padding-top: 450px;*/
+	font-size: 3em;
 	background: black;
 	border: 20px dashed yellow;
 	color: orange;
+	border-radius: 100%;
 }
