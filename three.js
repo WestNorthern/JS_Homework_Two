@@ -8,3 +8,12 @@ document.addEventListener("keypress", function(e) {
 
 
 
+// let capturedKeys;
+
+// document.addEventListener("keypress", function(e) {
+// 	capturedKeys = String(e.key);
+// 	document.getElementById('display-box').innerHTML = capturedKeys;
+
+// });
+
+
