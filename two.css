@@ -1,0 +1,18 @@
+body {
+	background: grey;
+}
+
+
+#hover-box {
+	margin-top: 300px;
+	margin: 0 auto;
+	width: 600px;
+	height: 600px;
+	text-align: center;
+	/*line-height: 600px;*/
+	padding-top: 200px;
+	font-size: 4em;
+	background: black;
+	border: 20px dashed yellow;
+	color: orange;
+}
