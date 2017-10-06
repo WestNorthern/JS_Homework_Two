@@ -18,7 +18,7 @@ let arrayNum = 0;
 
 
 document.getElementById('button-left').addEventListener('click', function() {
-	document.getElementById('box').innerHTML = declarationArray[arrayNum];
+	document.getElementById('box').innerHTML = declarationArray[arrayNum % 9];
 	arrayNum++;
 	// document.getElementById('box').innerHTML = declarationArray[Math.floor(Math.random() * 9)];
 	// document.getElementById('box').innerHTML = "No, Im right!";
@@ -26,7 +26,7 @@ document.getElementById('button-left').addEventListener('click', function() {
 });
 
 document.getElementById('button-right').addEventListener('click', function(){
-	document.getElementById('box').innerHTML = declarationArray[arrayNum];
+	document.getElementById('box').innerHTML = declarationArray[arrayNum % 9];
 	arrayNum++;
 	// document.getElementById('box').innerHTML = "Im right";
 	// document.getElementById('box').innerHTML = declarationArray[Math.floor(Math.random() * 9)];

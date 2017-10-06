@@ -1,3 +1,20 @@
+
+nav {
+	display: inline;
+	color: white;
+	/*padding: 10%;*/
+	background: ghostwhite;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	font-size: 30px;
+	height: 100px;
+}
+
+nav > a {
+	margin: 4%;
+}
+
 body {
 	background: ghostwhite;
 }
