@@ -1,0 +1,35 @@
+body {
+	background: grey;
+}
+
+
+nav {
+	display: inline;
+	color: white;
+	/*padding: 10%;*/
+	background: ghostwhite;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	font-size: 30px;
+	height: 100px;
+}
+
+nav > a {
+	margin: 4%;
+}
+
+div {
+	position: absolute;
+	width: 900px;
+	background: ghostwhite;
+	left: 20%;
+	top: 20%;
+	border: 20px inset salmon;
+}
+
+ul li {
+	margin: 5%;
+	font-size: 60px;
+
+}
