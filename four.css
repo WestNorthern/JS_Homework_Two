@@ -1,3 +1,4 @@
+
 nav {
 	display: inline;
 	color: white;
@@ -12,4 +13,53 @@ nav {
 
 nav > a {
 	margin: 4%;
+}
+
+body {
+	background: ghostwhite;
+}
+
+
+form {
+	position: absolute;
+	left: 25%;
+	top: 25%;
+}
+
+[type="username"] {
+	width: 350px;
+	height: 40px;
+	border: 5px solid mediumorchid;
+	font-size: 1.2em;
+  text-align: center;
+}
+
+[type="password"] {
+	width: 350px;
+	height: 40px;
+	border: 5px solid chartreuse;
+	font-size: 1.2em;
+  text-align: center;
+}
+
+[type="submit"] {
+	width: 100px;
+	height: 50px;
+	border: 5px solid plum;
+	background: ghostwhite;
+	font-weight: bold;
+
+
+}
+
+h1 {
+	color: rosybrown;
+	text-align: center;
+}
+
+::-webkit-input-placeholder { 
+    color: indigo;
+    font-size: 1.7em;
+    text-align: center;
+    /*line-height: 30px;*/
 }
