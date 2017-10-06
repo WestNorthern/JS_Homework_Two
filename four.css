@@ -1,0 +1,22 @@
+body {
+	background: ghostwhite;
+}
+
+
+form {
+	position: absolute;
+	left: 25%;
+	top: 25%;
+}
+
+[type="username"] {
+	width: 350px;
+	height: 40px;
+	border: 5px solid salmon;
+}
+
+[type="password"] {
+	width: 350px;
+	height: 40px;
+	border: 5px solid cornsilk;
+}
